@@ -57,7 +57,7 @@ footer:
     image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
     text:           light       # light or dark
-    copyright:      Made by <a href="https://unbound.studio/">Unbound Studio</a> in London, UK.
+    copyright:      Made by Jose Vicente Paradas Barazarte
 
 # Post settings
 post:
@@ -83,7 +83,7 @@ post_assets:        /assets/posts/
 markdown:           kramdown
 highlighter:        rouge
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist

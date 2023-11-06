@@ -15,10 +15,4 @@ formspree:
 
 Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
 
-Tel: 023-453-6578
-
-7997 E 153st Street
-Gotham
-GH, 86105 USA
-
 {% include map.html latitude="40.6700" longitude="-73.9400" zoom="16" %}
