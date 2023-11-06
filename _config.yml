@@ -33,7 +33,7 @@ author:
 # Social share buttons
 twitter_username:   username
 github_username:    username
-instagram_username: \@v1nceent
+instagram_username: "@v1nceent"
 
 # Site background color
 template:           light       # light or dark
@@ -83,6 +83,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
 
 sass:
   style:            compressed
