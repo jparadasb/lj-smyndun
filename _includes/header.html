@@ -45,7 +45,6 @@
                         </ul>
                     </div>
                 </div>
-                <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.logo }}">{% else %}{{ site.logo_text | escape }}{% endif %}</a>
                 <div class="uk-navbar-center-right">
                     <div>
                         <ul class="uk-navbar-nav uk-visible@m">
@@ -86,6 +85,15 @@
                     {% if page.layout == 'about' and site.author.bio %}
                         <div class="uk-container uk-container-small uk-margin-medium-top">
                             {{ site.author.bio }}
+                        </div>
+                    {% endif %}
+                    {% if page.layout == 'about' and page.header.credits.description %}
+                        <div class="uk-container uk-container-small uk-margin-medium-top">
+                            <small>
+                            <a href="{{page.header.credits.url}}?ref={{site.baseurl}}">
+                                {{ page.header.credits.description }}
+                            </a>
+                            </small>
                         </div>
                     {% endif %}
                 </div>

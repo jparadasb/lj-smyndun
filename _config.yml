@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Momoir - Jekyll Template for Story Tellers
-description:        Hi, I'm Memoir, an awesome Jekyll bloging theme.
+title:              "Chronicles of Light: A Visual Journey Through Time"
+description:        Step into a world where time and light intertwine. 'Chronicles of Light' invites you to embark on a captivating visual journey that transcends the boundaries of time and space. Our photography showcases the art of capturing moments in a way that transports you through history, emotion, and the ever-changing play of light. Experience the past, present, and future through our lens, where every image tells a timeless tale."
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -19,29 +19,21 @@ url:                ""
 
 # Site logo, image or text
 logo:               # e.g. logo.png, upload logo image file to /assets/img/ folder
-logo_text:          Memoir      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+logo_text:          none      # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Author settings, displayed on about page
 author:
-    name:           John Smith
-    bio:            Hi, I'm John, a web designer, human and the author of this blog.
-    email:          john@somewebsite.com
-    website:        http://somewebsite.com
-    facebook:       https://www.facebook.com/
-    flickr:         https://flickr.com/
-    dribbble:       https://dribbble.com/
-    github:         https://github.com/
-    googleplus:     https://plus.google.com/
-    instagram:      https://www.instagram.com/
-    linkedin:       https://www.linkedin.com/feed/
-    pinterest:      https://www.pinterest.com/
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
-    youtube:        https://www.youtube.com/
+    name:           J. Vicente
+    bio:            Hi, I'm Vicente, a software developer, author of this blog.
+    email:          mailto://v1nceent@paradas.co
+    website:        https://photography.paradas.co
+    github:         https://github.com/jparadasb
+    instagram:      https://www.instagram.com/@v1nceent
 
 # Social share buttons
 twitter_username:   username
 github_username:    username
+instagram_username: \@v1nceent
 
 # Site background color
 template:           light       # light or dark
@@ -57,7 +49,7 @@ footer:
     image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
     text:           light       # light or dark
-    copyright:      Made by Jose Vicente Paradas Barazarte
+    copyright:      Made by J. Vicente P. Barazarte
 
 # Post settings
 post:

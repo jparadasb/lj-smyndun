@@ -8,9 +8,9 @@ layout: default
         {{ content }}
     </article>
 
-    {% if page.formspree.email %}
+    {% if page.formspree.action %}
     <h3 class="uk-margin-large-top">Contact Form</h3>
-    <form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://formspree.io/{{ page.formspree.email }}" accept-charset="UTF-8">
+    <form class="uk-form-stacked uk-margin-medium-top" method="POST" action="{{ page.formspree.action }}" accept-charset="UTF-8">
         <div class="uk-margin-medium-bottom">
             <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
             <div class="uk-form-controls">
